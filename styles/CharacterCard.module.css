@@ -1,0 +1,25 @@
+.card {
+    width: 225px;
+    padding: 1rem;
+    border-radius: 25px;
+    text-align: center;
+    transition: transform 0.25;
+    background-color: white;
+    display: flex;
+    max-width: 100vh;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.avatar {
+    width: 125px;
+    border-radius: 50%;
+}
+
+.title {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: black;
+}
