@@ -4,7 +4,7 @@
     border-radius: 25px;
     text-align: center;
     transition: transform 0.25;
-    background-color: white;
+    background-color: rgb(193, 252, 166);
     display: flex;
     max-width: 100vh;
 }
