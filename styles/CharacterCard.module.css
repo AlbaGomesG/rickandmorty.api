@@ -1,11 +1,12 @@
 .card {
     width: 225px;
-    padding: 1rem;
+    padding: 3rem;
     border-radius: 25px;
     text-align: center;
     transition: transform 0.25;
     background-color: rgb(193, 252, 166);
     display: flex;
+    flex-direction: column;
     max-width: 100vh;
 }
 
