@@ -1,5 +1,6 @@
 .container {
-    background-color: rgb(40, 150, 45);
+    min-height: 100vh;
+    background-image: url("/space.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,4 +25,87 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 2vh;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2vh;
+}
+
+.input{
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 10px 15px;
+    opacity: 0.7;
+}
+
+.buttonNav {
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.buttonSearch {
+    background-color: rgb(111, 228, 57);
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+
+.buttonReset {
+    background-color: rgb(228, 57, 57);
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+
+.buttonNav {
+    background-color: royalblue;
+}
+
+.buttonNav:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3);
+}
+
+.buttonNav:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 114, 255, 0.2);
+}
+
+.buttonNav:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.navControls {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.pageNumber{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
 }

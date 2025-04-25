@@ -4,7 +4,8 @@
     border-radius: 25px;
     text-align: center;
     transition: transform 0.25;
-    background-color: rgb(193, 252, 166);
+    background-color: rgb(166, 219, 141);
+    opacity: 0.9;
     display: flex;
     flex-direction: column;
     max-width: 100vh;
